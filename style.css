@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Quicksand:wght@300;500;700&family=Righteous&family=Titan+One&family=Work+Sans:wght@100;300;400;600;800&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans";
+  margin: 0;
+  padding: 0;
+}
