@@ -99,7 +99,7 @@ html {
   font-weight: normal;
   color: #f9f100;
 }
-.inicio .contenedor-banner .redes {
+.inicio .contenedor-banner .redes a {
   color: #fff;
   display: inline-block;
   text-decoration: none;
@@ -111,4 +111,8 @@ html {
   margin: 40px 5px;
   font-size: 20px;
   transition: 0.3s;
+}
+.inicio .contenedor-banner .redes a:hover {
+  cursor: pointer;
+  background-color: #1cb698;
 }
