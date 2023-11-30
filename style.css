@@ -116,3 +116,24 @@ html {
   cursor: pointer;
   background-color: #1cb698;
 }
+/*SECCION SOBRE MÍ*/
+.sobremi {
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 20px;
+}
+.sobremi .contenido-seccion {
+  max-width: 1100px;
+  margin: auto;
+}
+.sobremi h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  text-align: center;
+  padding: 20px 0;
+}
+.sobremi .contenido-seccion p {
+  font: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
