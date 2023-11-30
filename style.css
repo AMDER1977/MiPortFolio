@@ -14,6 +14,7 @@ html {
   background: #1e2326;
   position: fixed;
   width: 100%;
+  height: 8%;
   top: 0;
   left: 0;
   z-index: 99;
@@ -82,7 +83,7 @@ html {
   border-radius: 40px;
 }
 .inicio .contenedor-banner img {
-  margin-top: 40px;
+  margin-top: 50px;
   border: 10px solid #1cb698;
   display: block;
   width: 80%;
@@ -166,13 +167,14 @@ html {
 }
 .sobremi .fila .col ul li strong {
   display: inline-block;
-  color: #f9f100;
+  color: #1cb698;
   width: 130px;
 }
 
 .sobremi .fila .col ul li span {
-  color: #1cb698;
+  color: #252a2e;
   padding: 2px;
+  background-color: #1cb698;
   font-weight: bold;
   border-radius: 5px;
 }
