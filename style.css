@@ -137,3 +137,58 @@ html {
   line-height: 22px;
   margin-bottom: 20px;
 }
+
+.sobremi .contenido-seccion p span {
+  color: #1cb698;
+  font-weight: bold;
+}
+.sobremi .fila {
+  display: flex;
+}
+
+.sobremi .fila .col {
+  width: 50%;
+}
+
+.sobremi .fila .col h3 {
+  font-size: 28px;
+  font-family: "Righteous";
+  margin-bottom: 25px;
+}
+.sobremi .fila .col ul {
+  margin: 12px 0;
+  list-style: none;
+}
+.sobremi .fila .col ul li strong {
+  display: inline-block;
+  color: #f9f100;
+  width: 130px;
+}
+.mail {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sobremi .fila .col ul li span {
+  background-color: #1cb698;
+  padding: 2px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.sobremi .fila .col .contedor-intereses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobremi .fila .col .contedor-intereses .intereses {
+  width: 100px;
+  height: 100px;
+  background-color: #252a2e;
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
