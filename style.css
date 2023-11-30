@@ -117,6 +117,11 @@ html {
   background-color: #1cb698;
 }
 /*SECCION SOBRE MÍ*/
+.mail {
+  text-decoration: none;
+  color: #fff;
+}
+
 .sobremi {
   background-color: #1e2326;
   color: #fff;
@@ -164,23 +169,19 @@ html {
   color: #f9f100;
   width: 130px;
 }
-.mail {
-  text-decoration: none;
-  color: #fff;
-}
 
 .sobremi .fila .col ul li span {
-  background-color: #1cb698;
+  color: #1cb698;
   padding: 2px;
   font-weight: bold;
   border-radius: 5px;
 }
-.sobremi .fila .col .contedor-intereses {
+.sobremi .fila .col .contenedor-interes {
   display: flex;
   flex-wrap: wrap;
 }
 
-.sobremi .fila .col .contedor-intereses .intereses {
+.sobremi .fila .col .contenedor-interes .interes {
   width: 100px;
   height: 100px;
   background-color: #252a2e;
@@ -191,4 +192,35 @@ html {
   align-items: center;
   justify-content: center;
   transition: 0.3s;
+}
+.sobremi .fila .col .contenedor-interes .interes:hover {
+  background-color: #1cb698;
+}
+
+.sobremi .fila .col .contenedor-interes .interes i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sobremi button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #1cb698;
+  border-radius: 2px;
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  color: #1cb698;
+  position: relative;
+  z-index: 10;
+}
+.sobremi button .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  z-index: 0.1;
+  transition: 1s;
 }
