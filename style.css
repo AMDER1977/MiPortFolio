@@ -261,6 +261,9 @@ html {
   font-family: "Righteous";
   margin-bottom: 25px;
 }
+.skills .skill {
+  color: #1cb698;
+}
 .skills .skill > span {
   font-weight: bold;
   display: block;
