@@ -59,7 +59,7 @@ html {
   cursor: pointer;
   display: none;
 }
-/*Estilos para la seccion Inicio*/
+/*SECCION INICIO*/
 .inicio {
   background: linear-gradient(
       to top,
@@ -230,3 +230,5 @@ html {
 .sobremi button:hover .overlay {
   width: 100%;
 }
+
+/*SECCION DE HABILIDADES*/
