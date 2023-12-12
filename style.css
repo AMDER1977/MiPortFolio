@@ -303,3 +303,11 @@ html {
   font-family: "Righteous";
   margin-bottom: 25px;
 }
+
+.curriculum .fila .izquierda {
+  border-right: 2px solid #252a2e;
+}
+
+.curriculum .fila .derecha {
+  border-left: 2px solid #252a2e;
+}
