@@ -274,3 +274,22 @@ html {
   color: #f9f100; /* Cambia el color al pasar el cursor */
   transform: scale(1.02); /* Aplica un efecto de escala */
 }
+/*ESTILOS SECCION CURRICULUM*/
+.curriculum {
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 20px;
+}
+.curriculum .contenido-seccion {
+  max-width: 1100px;
+  margin: auto;
+}
+.curriculum h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  text-align: center;
+  padding: 20px 0;
+}
+.curriculum .fila {
+  display: flex;
+}
