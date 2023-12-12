@@ -269,3 +269,8 @@ html {
   display: block;
   margin-bottom: 10px;
 }
+
+.skill:hover {
+  color: #f9f100; /* Cambia el color al pasar el cursor */
+  transform: scale(1.02); /* Aplica un efecto de escala */
+}
