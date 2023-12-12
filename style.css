@@ -293,3 +293,13 @@ html {
 .curriculum .fila {
   display: flex;
 }
+.curriculum .fila .col {
+  width: 49%;
+  padding: 0 20px;
+}
+
+.curriculum .fila .col h3 {
+  font-size: 28px;
+  font-family: "Righteous";
+  margin-bottom: 25px;
+}
