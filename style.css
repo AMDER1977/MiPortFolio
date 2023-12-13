@@ -254,7 +254,6 @@ html {
 .skills .fila .col {
   width: 50%;
   padding: 0 20px;
-  margin-bottom: 20px;
 }
 .skills .fila .col h3 {
   font-size: 28px;
@@ -268,6 +267,223 @@ html {
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
+}
+
+.skills .skill .barra-skill {
+  height: 8px;
+  width: 80%;
+  background-color: #131517;
+  position: relative;
+  margin-bottom: 30px;
+}
+.skills .skill .progreso {
+  background-color: #1cb698;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8px;
+}
+.skills .skill .barra-skill span {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #1cb698;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  top: -17px;
+  right: -15px;
+  font-size: 14px;
+}
+/* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .javascript {
+  width: 0%;
+  animation: 2s javascript forwards;
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+.skills .skill .htmlcss {
+  width: 0%;
+  animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.skills .skill .react {
+  width: 0%;
+  animation: 2s react forwards;
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.skills .skill .next {
+  width: 0%;
+  animation: 2s next forwards;
+}
+@keyframes next {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.skills .skill .express {
+  width: 0%;
+  animation: 2s express forwards;
+}
+@keyframes express {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.skills .skill .postgres {
+  width: 0%;
+  animation: 2s postgres forwards;
+}
+@keyframes postgres {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 78%;
+  }
+}
+
+.skills .skill .github {
+  width: 0%;
+  animation: 2s express forwards;
+}
+@keyframes github {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+.skills .skill .scrum {
+  width: 0%;
+  animation: 2s scrum forwards;
+}
+@keyframes scrum {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.skills .skill .comunicacion {
+  width: 0%;
+  animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.skills .skill .trabajo {
+  width: 0%;
+  animation: 2s trabajo forwards;
+}
+@keyframes trabajo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 88%;
+  }
+}
+
+.skills .skill .resolucion {
+  width: 0%;
+  animation: 2s resolucion forwards;
+}
+@keyframes resolucion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+.skills .skill .creatividad {
+  width: 0%;
+  animation: 2s dedicacion forwards;
+}
+@keyframes creatividad {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+.skills .skill .autodeterminacion {
+  width: 0%;
+  animation: 2s autodeterminacion forwards;
+}
+@keyframes autodeterminacion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 94%;
+  }
+}
+.skills .skill .dinamismo {
+  width: 0%;
+  animation: 2s dinamismo forwards;
+}
+@keyframes dinamismo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 78%;
+  }
+}
+.skills .skill .constancia {
+  width: 0%;
+  animation: 2s constancia forwards;
+}
+@keyframes constancia {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
 }
 
 .skill:hover {
