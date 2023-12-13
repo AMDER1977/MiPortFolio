@@ -574,4 +574,28 @@ html {
   display: block;
   width: 10px;
   height: 10px;
+  border-radius: 50%;
+  background-color: #1cb698;
+  float: right;
+  position: relative;
+  bottom: 4px;
+}
+.curriculum .fila .item .conectord {
+  height: 2px;
+  width: 47px;
+  background-color: #1cb698;
+  position: absolute;
+  top: 50%;
+  right: 47px;
+  z-index: 5;
+}
+.curriculum .fila .item .conectord .circulod {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1cb698;
+  float: left;
+  position: relative;
+  bottom: 4px;
 }
