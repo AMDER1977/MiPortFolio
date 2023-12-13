@@ -519,9 +519,9 @@ html {
 }
 
 .curriculum .fila .izquierda {
-  border-right: 2px solid #252a2e;
+  border-right: 4px solid #252a2e;
 }
 
 .curriculum .fila .derecha {
-  border-left: 2px solid #252a2e;
+  border-left: 4px solid #252a2e;
 }
