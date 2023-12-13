@@ -438,7 +438,7 @@ html {
 
 .skills .skill .creatividad {
   width: 0%;
-  animation: 2s dedicacion forwards;
+  animation: 2s creatividad forwards;
 }
 @keyframes creatividad {
   0% {
