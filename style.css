@@ -525,3 +525,53 @@ html {
 .curriculum .fila .derecha {
   border-left: 4px solid #252a2e;
 }
+.curriculum .fila .item {
+  padding: 25px;
+  margin-bottom: 30px;
+  background-color: #252a2e;
+  position: relative;
+}
+
+.curriculum .fila .item h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.curriculum .fila .item .casa {
+  color: #1cb698;
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+}
+.curriculum .fila .item .fecha {
+  color: #1cb698;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.curriculum .fila .item p {
+  line-height: 24px;
+}
+
+.curriculum .fila .izq {
+  border-right: 2px solid #1cb698;
+  margin-right: 20px;
+}
+.curriculum .fila .der {
+  border-left: 2px solid #1cb698;
+  margin-left: 20px;
+}
+.curriculum .fila .item .conectori {
+  height: 2px;
+  width: 47px;
+  background-color: #1cb698;
+  position: absolute;
+  top: 50%;
+  right: -47px;
+  z-index: 5;
+}
+.curriculum .fila .item .conectori .circuloi {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
