@@ -506,6 +506,7 @@ html {
 }
 .curriculum .fila {
   display: flex;
+  justify-content: space-between;
 }
 .curriculum .fila .col {
   width: 49%;
@@ -586,7 +587,7 @@ html {
   background-color: #1cb698;
   position: absolute;
   top: 50%;
-  right: 47px;
+  left: -47px;
   z-index: 5;
 }
 .curriculum .fila .item .conectord .circulod {
