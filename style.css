@@ -600,3 +600,23 @@ html {
   position: relative;
   bottom: 4px;
 }
+/*ESTILOS PORTFOLIO*/
+.portfolio {
+  background-color: #252a2e;
+  color: #fff;
+  padding: 50px 20px;
+}
+.portfolio .contenido-seccion {
+  max-width: 1100px;
+  margin: auto;
+}
+.portfolio h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  text-align: center;
+  padding: 20px 0;
+}
+.portfolio .galeria {
+  display: flex;
+  flex-wrap: wrap;
+}
