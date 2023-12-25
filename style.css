@@ -698,7 +698,7 @@ a {
   padding: 10px;
   position: relative;
 }
-.contacto.col input,
+.contacto .col input,
 .contacto .col textarea {
   display: block;
   width: 100%;
@@ -708,4 +708,55 @@ a {
   background-color: #252a2e;
   color: #fff;
   font-size: 18px;
+}
+.contacto button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+.contacto button .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #1cb698;
+  z-index: -1;
+  transition: 1s;
+}
+.contacto button:hover .overlay {
+  width: 100%;
+}
+.contacto .col img {
+  width: 100%;
+}
+.contacto .col .info {
+  position: absolute;
+  top: 40%;
+  background-color: #252a2e;
+  padding: 20px;
+  max-width: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contacto .col .info ul {
+  list-style: none;
+}
+.contacto .col .info ul li {
+  margin-bottom: 20px;
+}
+.contacto .col .info ul li i {
+  color: #1cb698;
+  display: inline-block;
+  margin-right: 20px;
 }
