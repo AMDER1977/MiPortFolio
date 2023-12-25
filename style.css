@@ -636,9 +636,15 @@ a {
   height: 100%;
   display: block;
 }
+.portfolio .galeria .proyecto .proyecto-img {
+  width: 100%;
+  height: 200px; /* ajusta la altura según tus necesidades */
+  display: block;
+}
 .portfolio .galeria .proyecto .overlay {
   position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -650,6 +656,8 @@ a {
   font-size: 18px;
   letter-spacing: 3px;
   opacity: 0;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .portfolio .galeria .proyecto .overlay h3 {
