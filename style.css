@@ -803,3 +803,10 @@ footer .arriba {
   line-height: 50px;
   font-size: 18px;
 }
+
+/*RESPONSIVE DESIGN*/
+@media screen and (max-width: 960px) {
+  nav {
+    display: none;
+  }
+}
