@@ -760,3 +760,9 @@ a {
   display: inline-block;
   margin-right: 20px;
 }
+
+/*FOOTER ESTILOS*/
+
+footer {
+  background-color: #252a2e;
+}
