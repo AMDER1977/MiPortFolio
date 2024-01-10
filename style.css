@@ -809,4 +809,21 @@ footer .arriba {
   nav {
     display: none;
   }
+  .nav-responsive {
+    display: block;
+  }
+  nav.responsive {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    background-color: #252a2e;
+    width: 180px;
+  }
+  nav.responsive ul {
+    display: block !important;
+  }
+  nav.responsive ul li {
+    border-bottom: 1px solid #fff;
+  }
 }
