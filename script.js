@@ -26,6 +26,11 @@ function efectoHabilidades() {
   if (distancia_skills >= 300) {
     let habilidades = document.getElementsByClassName("progreso");
     habilidades[0].classList.add("javascript");
+    habilidades[1].classList.add("htmlcss");
+    habilidades[2].classList.add("react");
+    habilidades[3].classList.add("next");
+    habilidades[4].classList.add("express");
+    habilidades[5].classList.add("postgres");
   }
 }
 //primero detectar el scrolling para aplicar la animacion de la barra de habilidades:
