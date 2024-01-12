@@ -10,3 +10,11 @@ function mostrarOcultarMenu() {
     menuVisible = true;
   }
 }
+
+//funcion para ocultar menu cuando se selecciona una opcion
+function seleccionar() {
+  document.getElementById("nav").classList = "";
+  menuVisible = false;
+}
+
+//funcion para aplicar las animaciones de las habilidades
