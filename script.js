@@ -42,6 +42,7 @@ function efectoHabilidades() {
     habilidades[16].classList.add("constancia");
   }
 }
+
 //primero detectar el scrolling para aplicar la animacion de la barra de habilidades:
 
 window.onscroll = function () {
