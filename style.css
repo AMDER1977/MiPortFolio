@@ -376,7 +376,7 @@ a {
 
 .skills .skill .github {
   width: 0%;
-  animation: 2s express forwards;
+  animation: 2s github forwards;
 }
 @keyframes github {
   0% {
