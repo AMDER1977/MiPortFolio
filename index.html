@@ -404,12 +404,24 @@
             <!--Form-->
 
             <div class="col">
-                <input type="text" placeholder="Nombre Completo">
-                <input type="text" placeholder="Numero telefónico">
-                <input type="text" placeholder="Dirección de correo">
-                <input type="text" placeholder="Asunto">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Contenido Mensaje"></textarea>
+            <form action="https://formsubmit.co/3f83a629fa766fdeca4f3cdc257f6139" method="POST">
+                <label class="nombre" for="i_nombre">
+                    <input type="text" name= "nombre" placeholder="Nombre Completo">
+                </label>
+
+                <label class="correo" for="i_correo">
+                    <input type="text"    name="correo" placeholder="Correo Electrónico">
+                </label>
+
+                <label class="asunto" for="i_asunto">
+                    <input type="text" name="asunto" placeholder="Asunto">
+                </label>
+                
+                <label   class="mensaje"  for="i_mensaje">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </label>
                 <button>Enviar <i class="fa-solid fa-paper-plane"></i><span class="overlay"></span></button>
+            </form>
             </div>
             <!--MAPA-->
             <div class="col">
@@ -418,16 +430,16 @@
                     <ul>
                         <li>
                             <i class="fa-solid fa-location-dot"></i>
-                            Manta, Manabí, Ecuador.
+                            Manta-Manabí-Ecuador.
                         </li>
                         <li>
                             <i class="fa-solid fa-mobile-screen-button"></i>
                            Celular +593 99 5933885
                         </li>
                         <li>
-                <strong>Email</strong>
-                <a href="mailto:ahernandezdep@gmail.com" class="mail" target="_blank">ahernandezdep@gmail.com</a>
-              </li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:ahernandezdep@gmail.com" class="mail" target="_blank">ahernandezdep@gmail.com</a>
+                        </li>
                     </ul>
                 </div>
             </div>
