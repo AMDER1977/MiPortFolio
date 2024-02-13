@@ -150,13 +150,10 @@ html {
 }
 .sobremi .fila {
   display: flex;
-  flex-wrap: wrap; /* add*/
 }
 
 .sobremi .fila .col {
   width: 50%;
-  box-sizing: border-box; /* added */
-  padding: 0 15px; /* Aadded */
 }
 
 .sobremi .fila .col h3 {
@@ -164,29 +161,36 @@ html {
   font-family: "Righteous";
   margin-bottom: 25px;
 }
-/* .sobremi .fila .col ul {
-  margin: 12px 0;
-  list-style: none;
-}
-.sobremi .fila .col ul li strong {
-  display: inline-block;
-  color: #1cb698;
-  width: 130px;
-  margin-bottom: 8px;
-}
+/* {
+  display: flex;
+  flex-wrap: wrap;
+} */
+/* {
+  width: 100px;
+  height: 100px;
+  background-color: #252a2e;
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+} */
 
-.sobremi .fila .col ul li span {
+/* .sobremi .fila .col ul li span {
   color: #252a2e;
   padding: 2px;
   background-color: #1cb698;
   font-weight: bold;
   border-radius: 5px;
 } */
+.sobremi .fila .col .contenedor-servicios,
 .sobremi .fila .col .contenedor-interes {
   display: flex;
   flex-wrap: wrap;
 }
-
+.sobremi .fila .col .contenedor-servicios .servicios,
 .sobremi .fila .col .contenedor-interes .interes {
   width: 100px;
   height: 100px;
@@ -199,14 +203,20 @@ html {
   justify-content: center;
   transition: 0.3s;
 }
+.sobremi .fila .col .contenedor-servicios .servicios:hover,
 .sobremi .fila .col .contenedor-interes .interes:hover {
   background-color: #1cb698;
 }
 
+.sobremi .fila .col .contenedor-servicios .servicios i,
 .sobremi .fila .col .contenedor-interes .interes i {
   font-size: 30px;
   margin-bottom: 10px;
 }
+.sobremi .fila .col .contenedor-servicios .servicios span {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
