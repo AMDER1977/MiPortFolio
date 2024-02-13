@@ -145,15 +145,21 @@ html {
 }
 
 .sobremi .contenido-seccion p span {
+  font-size: 20px;
   color: #1cb698;
   font-weight: bold;
 }
 .sobremi .fila {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .sobremi .fila .col {
   width: 50%;
+}
+.sobremi .fila .col + .col {
+  border-left: 1px solid #1cb698; /*borde*/
+  padding-left: 20px;
 }
 
 .sobremi .fila .col h3 {
@@ -161,34 +167,15 @@ html {
   font-family: "Righteous";
   margin-bottom: 25px;
 }
-/* {
-  display: flex;
-  flex-wrap: wrap;
-} */
-/* {
-  width: 100px;
-  height: 100px;
-  background-color: #252a2e;
-  border-radius: 10px;
-  margin: 0 15px 15px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
-} */
 
-/* .sobremi .fila .col ul li span {
-  color: #252a2e;
-  padding: 2px;
-  background-color: #1cb698;
-  font-weight: bold;
-  border-radius: 5px;
-} */
 .sobremi .fila .col .contenedor-servicios,
 .sobremi .fila .col .contenedor-interes {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
+} */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6px;
 }
 .sobremi .fila .col .contenedor-servicios .servicios,
 .sobremi .fila .col .contenedor-interes .interes {
@@ -196,7 +183,7 @@ html {
   height: 100px;
   background-color: #252a2e;
   border-radius: 10px;
-  margin: 0 15px 15px 0;
+  margin: 0 8px 8px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
