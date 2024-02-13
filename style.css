@@ -89,6 +89,7 @@ html {
   width: 80%;
   margin: auto;
   border-radius: 100%;
+  opacity: 0.7;
 }
 .inicio .contenedor-banner h1 {
   margin-top: 40px;
@@ -690,9 +691,19 @@ a {
   font-family: "Righteous";
   text-align: center;
   padding: 20px 0;
+}
+.animated-title {
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 2.5s steps(30) forwards;
+  animation: typing 2s steps(30) forwards;
+}
+.animated-title .restart-typing {
+  animation: none; /* Desactivar la animación actual */
+  width: 0; /* Reiniciar la anchura */
+  animation: typing 2s steps(30) forwards; /* Reactivar la animación */
+}
+.animated-title.color-change {
+  color: #1cb698;
 }
 @keyframes typing {
   from {
@@ -882,6 +893,9 @@ footer .arriba {
   }
   .contacto .fila {
     display: block;
+  }
+  .contacto h2 {
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente según sea necesario */
   }
   .contacto .fila .col {
     width: 100%;
