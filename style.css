@@ -632,6 +632,7 @@ a {
   height: fit-content;
   margin: 10px;
   cursor: pointer;
+  border-radius: 8px;
 }
 .portfolio .galeria .proyecto img {
   width: 100%;
